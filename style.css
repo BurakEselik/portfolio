@@ -1,0 +1,28 @@
+.card:hover {
+    box-shadow: 2px 2px 0px 0px;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.card {
+    transition: all 300ms;
+}
+
+h2 {
+    padding: .4em;
+    background-color: #fbe5b66f;
+}
+
+.custom-btn {
+    border: 2px solid rgb(236, 129, 129);
+    border-radius: 8px;
+}
+
+::selection {
+    background-color: #f0a675;
+
+}
+
+.white-text {
+    color: aliceblue !important;
+}
