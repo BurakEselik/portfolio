@@ -1,7 +1,7 @@
 .card:hover {
     box-shadow: 2px 2px 0px 0px;
     cursor: pointer;
-    transform: scale(1.05);
+    transform: translateX(-10px)
 }
 
 .card {
@@ -25,4 +25,18 @@ h2 {
 
 .white-text {
     color: aliceblue !important;
+}
+
+.partial {
+    overflow: hidden;
+    height: auto;
+    width: auto;
+    transition: all ease-in-out 400ms;
+    padding: .2em;
+    border-radius: 10px;
+    margin: 1em 0 0 0;
+}
+
+.partial:hover {
+    box-shadow: rgba(243, 102, 56, 0.4) 0px 0px 0px 2px, rgba(243, 102, 56, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
